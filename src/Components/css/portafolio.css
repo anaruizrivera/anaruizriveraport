@@ -1,0 +1,30 @@
+
+
+.portafolio_img{
+    height: 500px;
+    width: 700px;
+    
+}
+.portafolio__container{
+    height: 900px;
+    width: 1200px;
+    padding-left: 500px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+   
+}
+
+.links-button:hover{
+    cursor: pointer;
+    color: rosybrown;
+    background: red;
+    transition: 1s;
+ }
+ .links-button {
+     font-size: 1.3rem;
+     color:black;
+    background-color:grey;
+    padding: 20px;
+    border-radius: 10px;
+ }

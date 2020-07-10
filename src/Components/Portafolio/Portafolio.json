@@ -1,0 +1,115 @@
+{
+    "items":[
+        {
+            "id":1,
+            "name":"Gateway Project ",
+            "image":"../image/gateway.jpeg",
+            "alt":"gateway",
+            "description":"Gateway is base on HTMl and CSS. We had to choose a country and I choosed Indonesia is centrally-located along ancient. ",
+            "url":"https://anaruiz-gateway-project.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/Gateway-Project",
+            "btn":"Go to website"
+        },
+        {
+            "id":2,
+            "name":"Hotel App",
+            "image":"../image/hotelapp.png",
+            "alt":"hotelapp",
+            "description":"This Hotel App consists of information and organized with images. It was most focus on Dubai.",
+            "url":"anaruiz-hotel-app.netlify.app",
+            "gitHub":"https://github.com/anaruizrivera/Hotel-App",
+            "btn":"Go to website"
+        },
+        {
+            "id":3,
+            "name":"Speech Recognition Guessing Game API",
+            "image":"../image/speech.png",
+            "alt":"guessingspeechgame",
+            "description":"Modern guessing game with speech recognition feature. You need to speech throug the microphone and guess a number.",
+            "url":"https://anaruiz-guessing-game.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/Speech-Recognition-Guessing-Game-API",
+            "btn":"Go to website"
+        },
+        {
+            "id":4,
+            "name":"Animated Navigation Bar",
+            "description":"Navbar specifically designed and developed for animation websites as well as for responsive apps. ",
+            "image":"../image/animation.png",
+            "alt":"Animated_Navigation",
+            "url":"https://anaruiz-navbar.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/Animated-Navigation-Bar",
+            "btn":"Go to website"
+        },
+        {
+            "id":5,
+            "name":"Github Page Locator Ap",
+            "description":"Used GitHub API to create an app that will help you locate users with just entering their Github username.",
+            "image":"../image/github.png",
+            "alt":"Github",
+            "url":"https://anaruiz.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/github-cards",
+            "btn":"Go to website"
+        },
+        {
+            "id":6,
+            "name":"React Tic Tac Toe",
+            "description":"Fun tic tac toe game created with React. You can play this with your friends and family, it will show the winner and if their is a tie.",
+            "image":"../image/tikto.png",
+            "alt":"TicTacToeGame",
+            "url":"anaruizrivera-tic-tac-toe-game.netlify.app",
+            "gitHub":"https://github.com/anaruizrivera/tic-tac-toe-game-app",
+            "btn":"Go to website"
+        },
+        {
+            "id":7,
+            "name":"Friend List App Game",
+            "description":"Designed and developed cards with a list of cards with friends. You are able to delete any friend of your list if you want.",
+            "image":"../image/friendlist.png",
+            "alt":"ListAppGame",
+            "url":"https://anaruizrivera-friend-list.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/Friend-App-List",
+            "btn":"Go to website"
+        },
+        {
+            "id":8,
+            "name":"Pokemon Inquirer",
+            "description":"This Pokemon-Inquirer cards must be run in your Terminal. This will not be showed in the browser",
+            "image":"../image/note.png",
+            "alt":"PokemonInquirerCards",
+            "gitHub":"This is a very interesting node application, where you are able to train a pokemon of your choice. If you would like to see it in action, clone my GitHub Repo and run it in Terminal.",
+            "btn":"Go to website"
+        },
+        {
+            "id":9,
+            "name":"Ecommerce Project Version One",
+            "description":"This website holds a Home Page with a JavaScript slider. This this an E-commerce that contains 12 products and also a contact form.",
+            "image":"../image/ecom.png",
+            "alt":"Ecommerce",
+            "url":"",
+            "gitHub":"",
+            "btn":"Go to website"
+        },
+        {
+            "id":10,
+            "name":"Ecommerce Project Version Two With React",
+            "description":"This is just the product page created with React. This version holds a filter that filters products with Type and Price of every product.",
+            "image":"../image/ecommerce.png",
+            "alt":"",
+            "url":"",
+            "gitHub":"",
+            "btn":"Go to website"
+        },
+        {
+            "id":10,
+            "name":"Wikipedia Re-design Project",
+            "description":"This website was base on Re-designing wikipedia and making improvement on the website. This was a group project, were I was able to colaborate and integrate parts of codes.",
+            "image":"../image/wiki.png",
+            "alt":"",
+            "url":"",
+            "gitHub":"",
+            "btn":"Go to website"
+        }
+
+
+    ]
+}

@@ -1,0 +1,31 @@
+.nameskills{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding: 55px 70px 40px 70px;
+}
+.skills-imgpart{
+    height: 100px;
+    width: 170px;
+    border-radius: 40px;
+   padding-left: 50px;
+
+}
+.grid-container{
+    
+  text-align: center;
+  align-items: center;
+   display: grid;
+   grid-template-columns: auto auto auto;
+    width: 300px;
+    margin:20px;
+
+}
+.lg-info{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 470px;
+    padding: 30px 30px 50px 150px;
+    
+}
+

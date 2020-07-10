@@ -1,0 +1,37 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+.navbar1{
+   background-color: black;
+   height: 100px;
+}
+.logo_name{
+   color:white;
+   float: left;
+   padding: 40px 40px 20px 20px;
+   
+}
+.container11{
+   float:right;
+   padding: 40px 40px 20px 20px ;
+}
+ul li{
+
+   display: inline;
+   padding: 20px ;
+}
+ul li a:hover{
+   cursor: pointer;
+   color: rosybrown;
+   background: red;
+   transition: 2s;
+}
+ul li a{
+   color:rosybrown;
+   padding: 20px;
+   border-radius: 10px;
+}
