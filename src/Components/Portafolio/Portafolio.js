@@ -13,6 +13,7 @@ import '../css/portafolio.css'
                 <section>
                     <h2>Portafolio Projects</h2>
                     {PortafolioInfo.items.map(item=>(
+                        // hola
                         <section>
                             <div>
                                 <div className="portafolio__container">
