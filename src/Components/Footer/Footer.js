@@ -15,8 +15,8 @@ export default class Footer extends React.Component {
 
                     <nav id="navbar">
                     <a className="fa fa-github-square" aria-hidden="true" href="https://github.com/anaruizrivera" target="_blank" rel="noopener noreferrer"></a>
-                            <a className="fa fa-linkedin-square" aria-hidden="true" href="https://www.linkedin.com/in/ana-ruiz-rivera-97288b1a5/" target="_blank" rel="noopener noreferrer"></a>
-                            <a class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/ana.ruiz7711/" target="_blank" rel="noopener noreferrer"></a>
+                    <a className="fa fa-linkedin-square" aria-hidden="true" href="https://www.linkedin.com/in/ana-ruiz-rivera-97288b1a5/" target="_blank" rel="noopener noreferrer"></a>
+                    <a className="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/ana.ruiz7711/" target="_blank" rel="noopener noreferrer"></a>
 
                         <div className="logoo">
 

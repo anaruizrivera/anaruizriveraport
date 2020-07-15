@@ -7,14 +7,14 @@ export default class HomePage extends React.Component {
         return (
             <React.Fragment>
                 
-                <div className="hero-image">
+                <div id="home" className="hero-image">
                     <div className="hero-text">
                         <h1 className="main-text">Happy code</h1>
                     </div>
                 </div>
                 
-                <section className="home-container__11">
-                    <h2>Who Am I?</h2>
+                <section id="about" className="home-container__11">
+                    <h2 className="who_iam">Who Am I?</h2>
                     <div className="home-container">
                     <div className="image"></div>
                     <p className="content-inf">I am currently a student in the Road to Hire program that teaches motivated

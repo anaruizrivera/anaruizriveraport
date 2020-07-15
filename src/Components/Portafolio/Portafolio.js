@@ -6,12 +6,12 @@ import '../css/portafolio.css'
     render(){
         return(
             <React.Fragment>
-                <section>
+                <section id="portfolio">
                     
                     <div className="oneContainer"></div>
                 </section>
                 <section>
-                    <h2>Portafolio Projects</h2>
+                    <h2 className="projects">Portafolio Projects</h2>
                     {PortafolioInfo.items.map(item=>(
                         // hola
                         <section>

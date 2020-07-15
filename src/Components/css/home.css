@@ -1,66 +1,103 @@
-.home-container{
-  display: flex;
-  align-items: center;
-  padding: 20px 20px 80px 295px;
-  
-}
+   /* home*/
 
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1545296664-39db56ad95bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1980&q=80"); 
-    height: 900px;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: relative;
+   *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
   }
-  
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rosybrown;
+
+
+   .home-container{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 80px 295px;
     
   }
   
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-  }
+  .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1545296664-39db56ad95bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1980&q=80"); 
+      height: 900px;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      position: relative;
+    }
+    
+  .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rosybrown;
+      
+    }
+    
+  .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+  .hero-text button:hover {
+      background-color: #555;
+      color: white;
+    }
   
-.hero-text button:hover {
-    background-color: #555;
-    color: white;
+  
+  
+  .who_iam{
+      text-align: center;
+      
+      font-size: 40px;
+      padding: 55px 70px 40px 70px;
+  }
+  .content-inf{
+      text-align: center;
+      
+      font-size: 30px;
+      width: 700px;
+      padding: 10px 70px 3px 15px;
+  }
+  .image{
+    background: url("../../img/ana-pic.jpeg") no-repeat;
+   
+    height: 400px;
+    width: 430px;
+    margin: 20px;
+    border: black solid 15px;
+    align-items: center;
+    
   }
 
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
 
-
-h2{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    padding: 55px 70px 40px 70px;
+  .hero-image{
+      width: 576px;
+      height: 750px;
+  }
+.who_iam{
+  padding: 60px 205px 10px 40px;
+}
+.home-container{
+    padding:50px;
+    display: grid; 
+    grid-template-columns: auto;
+    
 }
 .content-inf{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    width: 700px;
-    padding: 10px 70px 3px 15px;
+    width: 576px;
 }
 .image{
-  background: url("../../img/ana-pic.jpeg") no-repeat;
-  height: 400px;
-  width: 430px;
-  margin: 20px;
-  border: black solid 15px;
-  align-items: center;
+  width: 200px;
   
+}
 }

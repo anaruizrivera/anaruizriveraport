@@ -56,7 +56,7 @@
             "description":"Fun tic tac toe game created with React. You can play this with your friends and family, it will show the winner and if their is a tie.",
             "image":"../image/tikto.png",
             "alt":"TicTacToeGame",
-            "url":"anaruizrivera-tic-tac-toe-game.netlify.app",
+            "url":"https://anaruizrivera-tic-tac-toe-game.netlify.app/",
             "gitHub":"https://github.com/anaruizrivera/tic-tac-toe-game-app",
             "btn":"Go to website"
         },
@@ -85,8 +85,8 @@
             "description":"This website holds a Home Page with a JavaScript slider. This this an E-commerce that contains 12 products and also a contact form.",
             "image":"../image/ecom.png",
             "alt":"Ecommerce",
-            "url":"",
-            "gitHub":"",
+            "url":"https://anaruizriverae-commerce.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/e-commerce-version01",
             "btn":"Go to website"
         },
         {
@@ -94,9 +94,9 @@
             "name":"Ecommerce Project Version Two With React",
             "description":"This is just the product page created with React. This version holds a filter that filters products with Type and Price of every product.",
             "image":"../image/ecommerce.png",
-            "alt":"",
-            "url":"",
-            "gitHub":"",
+            "alt":"e-commerce-version02",
+            "url":"https://anaruizrivera-e-commerce-project.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/E-commerce-React",
             "btn":"Go to website"
         },
         {
@@ -104,9 +104,19 @@
             "name":"Wikipedia Re-design Project",
             "description":"This website was base on Re-designing wikipedia and making improvement on the website. This was a group project, were I was able to colaborate and integrate parts of codes.",
             "image":"../image/wiki.png",
-            "alt":"",
-            "url":"",
+            "alt":"https://github.com/Veronica-B/wikipedia",
+            "url":"https://github.com/Veronica-B/wikipedia",
             "gitHub":"",
+            "btn":"Go to website"
+        },
+        {
+            "id":11,
+            "name":"Counter App",
+            "description":"This website was base on Re-designing wikipedia and making improvement on the website. This was a group project, were I was able to colaborate and integrate parts of codes.",
+            "image":"../image/counter.png",
+            "alt":"counter app",
+            "url":"https://anaruizcounterapp.netlify.app/",
+            "gitHub":"https://github.com/anaruizrivera/counterAppp",
             "btn":"Go to website"
         }
 

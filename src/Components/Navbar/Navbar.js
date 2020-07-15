@@ -11,7 +11,7 @@ export default class Navbar extends React.Component {
 
 
                 <nav className="navbar1">
-                    <div>
+                    <div className="navsection">
                         <h2 className="logo_name">Ana Edith Ruiz Rivera</h2>
                     </div>
 
@@ -22,7 +22,7 @@ export default class Navbar extends React.Component {
                             <li><a href="#about">ABOUT</a></li>
                             <li><a href="#skills">SKILLS</a></li>
                             <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contact">CONTACT ME</a></li>
+                            <li><a href="#contactForm">CONTACT</a></li>
                         </ul>
                     </div>
 

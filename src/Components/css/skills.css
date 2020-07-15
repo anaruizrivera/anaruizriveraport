@@ -29,3 +29,23 @@
     
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .grid-container{
+         display: grid;
+         grid-template-columns: auto;
+          width: 400px;
+          padding: 0;
+          
+      
+      }
+      .nameskills{
+          padding: 0 150px 10px 10px;
+          margin: 40px;
+      }
+      .lg-info{
+          padding: 0;
+          margin: 30px;
+      }
+    
+}
