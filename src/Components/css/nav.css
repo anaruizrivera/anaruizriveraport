@@ -41,7 +41,7 @@ ul li a{
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
    .navbar1{
-      width: 576px;
+      width: 486px;
    }
    .navsection{
       display: flex;
@@ -54,7 +54,7 @@ ul li a{
 
    }
    ul{
-      padding-right:100px;
+      padding-right:10px;
       margin:0;
       display: flex;
       flex-direction: row;
@@ -75,20 +75,33 @@ ul li a{
 ===================*/
 
 @media screen and (max-width: 650px) and (min-width: 300px) {
-.logo_name{
-   width: 60px;
-   color:white;
-   float: left;
-   padding: 10px 30px 5px 5px;
-   
-}
-ul{
-   padding:0;
-   display: flex;
-   flex-direction: column;
+   .navbar1{
+      width: 520px;
+   }
+   .navsection{
+      display: flex;
+      flex-direction: row;
+   }
+   .logo_name{
+      padding:10px 70px 0 150px;
+      margin:0;
+      font-size: 1.5rem;
 
-}
-li a{
-   font-size: 1rem;
-}
+   }
+   ul{
+      padding-right:10px;
+      margin:0;
+      display: flex;
+      flex-direction: row;
+      
+      
+   
+   }
+   ul li{
+      padding: 0;
+   }
+   li a{
+      font-size: 10px;
+   }
+  
 }

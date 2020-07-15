@@ -71,14 +71,43 @@
 
     /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) and (min-width: 768px){
-    #contactForm{
-        padding:0 200px 10px 10px ;
+#contactForm{
+        padding: 10px 40px 10px 196px;
         display: grid;
         grid-template-columns: auto;
+        width: 218px;
+        padding-right: 1px;
     }
+  .contact-items{
+      padding: 10px 40px 10px 90px;
+  }
+  .btn{
+    padding: 10px 30px 10px 50px;
+  }
     .logoo{
         padding: 0;
     }
   
 }
-   
+    /*=======================
+================== MOBILE DEVICES =================
+===================*/
+
+@media screen and (max-width: 650px) and (min-width: 300px) {
+    #contactForm{
+        padding: 10px 40px 10px 256px;
+        display: grid;
+        grid-template-columns: auto;
+        width: 108px;
+        padding-right: 1px;
+    }
+  .contact-items{
+      padding: 10px 40px 10px 90px;
+  }
+  .btn{
+    padding: 10px 30px 10px 50px;
+  }
+    .logoo{
+        padding: 0;
+    }
+}

@@ -76,3 +76,23 @@
    float: left;
 }
 }
+    /*=======================
+================== MOBILE DEVICES =================
+===================*/
+
+@media screen and (max-width: 650px) and (min-width: 300px) {
+#navbar{
+width: 530px;
+display: grid;
+grid-template-rows: auto;
+}
+.logoo{
+ width: 200px;
+ height: 200px;
+ padding: 0;
+}
+.flex-container{
+ padding:0;
+ float: left;
+}
+}

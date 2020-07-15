@@ -80,24 +80,52 @@
   /* MEDIA QUERIES */
   @media screen and (max-width: 1024px) and (min-width: 768px) {
 
-  .hero-image{
-      width: 576px;
+.hero-image{
+      width: 486px;
       height: 750px;
   }
 .who_iam{
-  padding: 60px 205px 10px 40px;
+  padding: 60px 305px 10px 40px;
 }
 .home-container{
-    padding:50px;
+    padding:30px;
     display: grid; 
     grid-template-columns: auto;
     
 }
 .content-inf{
-    width: 576px;
+    width: 486px;
 }
 .image{
-  width: 200px;
+ 
+  width: 400px;
   
+}
+}
+ /*=======================
+================== MOBILE DEVICES =================
+===================*/
+
+@media screen and (max-width: 650px) and (min-width: 300px) {
+.hero-image{
+    width: 520px;
+    height: 850px;
+}
+.who_iam{
+padding: 60px 15px 10px 170px;
+}
+.home-container{
+  padding:30px;
+  display: grid; 
+  grid-template-columns: auto;
+  
+}
+.content-inf{
+  width: 486px;
+}
+.image{
+
+width: 400px;
+
 }
 }

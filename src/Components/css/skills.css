@@ -35,17 +35,39 @@
          display: grid;
          grid-template-columns: auto;
           width: 400px;
-          padding: 0;
+          padding: 0 700px 10px 50;
           
       
       }
       .nameskills{
-          padding: 0 150px 10px 10px;
-          margin: 40px;
+          padding: 0 300px 10px 10px;
+        
       }
       .lg-info{
-          padding: 0;
-          margin: 30px;
+          padding:0 20px 0 0;
+          /* margin: 30px; */
       }
     
+}
+ /*=======================
+================== MOBILE DEVICES =================
+===================*/
+
+@media screen and (max-width: 650px) and (min-width: 300px) {
+    .grid-container{
+     display: grid;
+     grid-template-columns: auto;
+     width: 400px;
+     padding: 0 700px 10px 50;
+         
+     
+     }
+     .nameskills{
+      padding: 0 300px 10px 190px;
+       
+     }
+     .lg-info{
+      padding:0 20px 0 0;
+         /* margin: 30px; */
+     }
 }
