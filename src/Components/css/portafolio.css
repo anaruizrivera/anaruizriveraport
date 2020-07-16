@@ -78,16 +78,13 @@ display: grid;
         padding:0 200px 10px 140px ;
         margin: 40px;
     }
-    .portafolio__container{
-        height: 650px;
-        width: 1200px;
-        padding:10px 700px 0 10px ;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 19px;
-       
-       
-    }
+    .grid{
+        display: grid;
+          justify-content: center;
+          text-align: center;
+          padding:20px 40px 10px 190px;
+          grid-template-columns: auto;
+        }
     .portafolio_img{
         padding-left:0;
         height: 270px;
