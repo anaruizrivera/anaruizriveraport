@@ -1,7 +1,7 @@
    /* home*/
 
    *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -31,8 +31,9 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: rosybrown;
-      
+      color: rgb(216, 183, 183);
+      font-size: 25px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
   .hero-text button {
@@ -55,13 +56,18 @@
   
   .who_iam{
       text-align: center;
-      
-      font-size: 40px;
+      font-family: 'Sora', sans-serif;
+      font-size: 59px;
       padding: 55px 70px 40px 70px;
+      color: rosybrown;
+     
+    
+     
+      
   }
   .content-inf{
-      text-align: center;
-      
+      text-align: left;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 30px;
       width: 700px;
       padding: 10px 70px 3px 15px;
@@ -81,20 +87,21 @@
   @media screen and (max-width: 1024px) and (min-width: 768px) {
 
 .hero-image{
-      width: 486px;
+      width: 689px;
       height: 750px;
   }
 .who_iam{
-  padding: 60px 305px 10px 40px;
+  padding: 60px 305px 10px 180px;
 }
 .home-container{
-    padding:30px;
+    
+    padding: 20px 105px 10px 100px;
     display: grid; 
     grid-template-columns: auto;
     
 }
 .content-inf{
-    width: 486px;
+    width: 586px;
 }
 .image{
  

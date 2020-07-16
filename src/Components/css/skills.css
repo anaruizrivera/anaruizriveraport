@@ -1,22 +1,33 @@
 .nameskills{
+    color:rosybrown;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-family: 'Sora', sans-serif;
+    font-size: 59px;
     padding: 55px 70px 40px 70px;
 }
 .skills-imgpart{
     height: 100px;
-    width: 170px;
-    border-radius: 40px;
+    width: 180px;
    padding-left: 50px;
+   text-align: center;
 
+}
+.skills-imgpartcss{
+    height: 106px;
+    width: 150px;
+   padding-left: 50px;
+   text-align: center;
+}
+.anatext{
+ padding:0;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
 }
 .grid-container{
     
-  text-align: center;
-  align-items: center;
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: auto auto auto ;
     width: 300px;
     margin:20px;
 
@@ -40,12 +51,15 @@
       
       }
       .nameskills{
-          padding: 0 300px 10px 10px;
-        
+          padding: 50px 300px 10px 250px;
       }
       .lg-info{
-          padding:0 20px 0 0;
+          padding:30px 20px 0 250px;
+          height: 370px;
           /* margin: 30px; */
+      }
+      .skills-imgpart{
+        padding: 10px 5px 20px 20px;
       }
     
 }

@@ -12,10 +12,12 @@
     background-size: 700px;
     width: 550px;
     height: 750px;
-    padding: 30px 50px;
+    padding: 50px 50px;
     max-height: 100%;
     color: white;
     text-align: center;
+    font-size: 20px;
+    
     
    }
     
@@ -24,7 +26,9 @@
     background:grey;
     width: 550px;
     height:750px;
-    color: white;
+    color:rgb(204, 167, 167);
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
    }
     
    #contactForm .contact-items{
@@ -54,6 +58,8 @@
    }
     
    .btn{
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
     background: rosybrown;
     padding: 15px 15px;
     color: white;
@@ -72,10 +78,10 @@
     /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) and (min-width: 768px){
 #contactForm{
-        padding: 10px 40px 10px 196px;
+        padding: 10px 40px 10px 366px;
         display: grid;
         grid-template-columns: auto;
-        width: 218px;
+        width: 318px;
         padding-right: 1px;
     }
   .contact-items{
@@ -100,6 +106,7 @@
         grid-template-columns: auto;
         width: 108px;
         padding-right: 1px;
+        
     }
   .contact-items{
       padding: 10px 40px 10px 90px;

@@ -1,25 +1,35 @@
-
-
 .portafolio_img{
-    height: 500px;
-    width: 700px;
+    height: 350px;
+    width: 450px;
     
 }
-.portafolio__container{
-    height: 900px;
-    width: 1200px;
-    padding-left: 500px;
-    text-align: center;
+.text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 19px;
-   
-   
+    width: 400px;
+}
+
+.grid{
+display: grid;
+  justify-content: center;
+  text-align: center;
+  padding:40px 40px 10px 10px;
+ 
+  grid-template-columns: auto auto auto;
+}
+.separatediv{
+    padding:60px 60px 60px 60px;
+}
+.titleprojects{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom:  23px;
+    font-size: 27px;
 }
 .projects{
+    color:rosybrown;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-    padding: 55px 70px 40px 70px;
+    font-family: 'Sora', sans-serif;
+    font-size: 59px;
+    padding: 80px 80px 60px 70px;
 }
 .links-button:hover{
    
@@ -43,22 +53,20 @@
     /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) and (min-width: 768px){
 .projects{
-    padding:0 200px 10px 10px ;
+    padding:40px 200px 10px 150px ;
     margin: 40px;
 }
-.portafolio__container{
-    height: 650px;
-    width: 1200px;
-    padding:0 700px 0 10px ;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 19px;
-   
-}
+.grid{
+    display: grid;
+      justify-content: center;
+      text-align: center;
+      padding:40px 40px 10px 10px;
+      grid-template-columns: auto;
+    }
 .portafolio_img{
     padding-left:0;
-    height: 300px;
-    width: 470px;
+    height: 450px;
+    width: 475px;
 }
 }
  /*=======================

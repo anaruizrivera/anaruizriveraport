@@ -1,4 +1,5 @@
 *{
+   
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
@@ -6,6 +7,7 @@
 }
 
 .navbar1{
+  
    background-color: black;
    height: 100px;
 }
@@ -20,10 +22,12 @@
    padding: 40px 40px 20px 20px ;
 }
 ul li{
-
+   font-family: 'Sora', sans-serif;
+   font-size: 19px;
    display: inline;
    padding: 20px ;
 }
+
 ul li a:hover{
    cursor: pointer;
    color: rosybrown;
@@ -41,32 +45,34 @@ ul li a{
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
    .navbar1{
-      width: 486px;
+      width: 689px;
    }
    .navsection{
       display: flex;
       flex-direction: row;
    }
    .logo_name{
-      padding:10px 70px 0 150px;
+      padding:10px 30px 0 250px;
       margin:0;
-      font-size: 1rem;
+      font-size: 1.2rem;
 
    }
    ul{
-      padding-right:10px;
+      padding-right:20px;
       margin:0;
       display: flex;
       flex-direction: row;
-      
+    
       
    
    }
    ul li{
       padding: 0;
+      
    }
    li a{
       font-size: 10px;
+      font-size: 1.2rem;
    }
   
 }

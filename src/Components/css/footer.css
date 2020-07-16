@@ -8,9 +8,11 @@
 
 /* Navbar */
 .logo_name_nav{
-   
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding:50px;
    height: 40px;
    margin: 45px;
+   
    
 }
 .logoo{
@@ -25,8 +27,10 @@
     
  }
  .linkss {
+   font-family: 'Sora', sans-serif;
    float: right;
-   padding:20px;
+   padding:10px;
+   padding-left: 50px;
    
 
 
@@ -46,14 +50,16 @@
 }
 .flex-container .linkss a{
    color:rosybrown;
-   padding: 20px;
+   padding: 10px;
    border-radius: 10px;
 }
-
+#footericons{
+   font-size: 50px;
+}
  .fa{
-    font-size: 50px;
+    
    padding: 70px 20px 0 45px;
-    margin:10px;
+    margin:20px;
     color:rosybrown;
     
 
@@ -66,10 +72,14 @@
         display: grid;
         grid-template-rows: auto;
 }
+.logo_name_nav{
+   padding:0;
+}
 .logoo{
-   width: 200px;
-   height: 200px;
-   padding: 0;
+   width: 300px;
+   height: 380px;
+   padding-left: 0;
+   
 }
 .flex-container{
    padding:0;

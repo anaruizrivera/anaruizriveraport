@@ -25,7 +25,7 @@ export default class Form extends React.Component {
                             <input type="text" name="name" placeholder="First Name..." />
                         </div>
                         <div class="contact-items">
-                            <label for="lastname" id="lastname" name="lastname">Last name:</label>
+                            <label for="lastname" id="lastname" name="lastname">Last Name:</label>
                             <input type="text" name="lastname" placeholder="Last Name..." />
                         </div>
                         <div class="contact-items">

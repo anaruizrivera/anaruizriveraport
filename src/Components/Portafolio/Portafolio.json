@@ -80,18 +80,8 @@
             "btn":"Go to website"
         },
         {
-            "id":9,
-            "name":"Ecommerce Project Version One",
-            "description":"This website holds a Home Page with a JavaScript slider. This this an E-commerce that contains 12 products and also a contact form.",
-            "image":"../image/ecom.png",
-            "alt":"Ecommerce",
-            "url":"https://anaruizriverae-commerce.netlify.app/",
-            "gitHub":"https://github.com/anaruizrivera/e-commerce-version01",
-            "btn":"Go to website"
-        },
-        {
             "id":10,
-            "name":"Ecommerce Project Version Two With React",
+            "name":"Ecommerce Project Version With React",
             "description":"This is just the product page created with React. This version holds a filter that filters products with Type and Price of every product.",
             "image":"../image/ecommerce.png",
             "alt":"e-commerce-version02",
