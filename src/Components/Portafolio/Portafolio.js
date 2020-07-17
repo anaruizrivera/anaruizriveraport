@@ -113,6 +113,23 @@ import '../css/portafolio.css'
                         <button className="links-button" ><a href="https://eager-leavitt-5dd0e0.netlify.app/">Website</a></button>
                         </div>
 
+
+                        <div className="separatediv">
+                        <h2 className="titleprojects">Gallery with CSS Grid and Flexbox Fallback</h2>
+                        <img className="portafolio_img" src="../image/flex.png"/>
+                        <p className="text">Gallery with CSS Grid and Flexbox Fallback</p>
+                        <button className="links-button" href="">GitHub</button>
+                        <button className="links-button" href="">Website</button>
+                        </div>
+
+                        <div className="separatediv">
+                        <h2 className="titleprojects">Texting App</h2>
+                        <img className="portafolio_img" src="../image/texting.png"/>
+                        <p className="text">RecruitingCHATApp The purpose of this app is instruct on an http server. We will live code our http server to manage http transactions, routes, and rendering of a web page</p>
+                        <button className="links-button" ><a href="https://github.com/anaruizrivera/PhoneApp">GitHub</a></button>
+                        
+                        </div> 
+
                         <div className="separatediv">
                         <h2 className="titleprojects">Pokemon Inquirer</h2>
                         <img className="portafolio_img" src="../image/terminal.png"/>
@@ -130,7 +147,7 @@ import '../css/portafolio.css'
                         </div>
 
 
-                        
+                      
 
 
                          {/* <div className="separatediv">
