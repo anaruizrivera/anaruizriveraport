@@ -21,8 +21,8 @@ export default class Footer extends React.Component {
                         <div className="logoo">
 
 
-                            <h2 className="logo_name_nav">Ana Ruiz Rivera   &copy; 2020, All Rights Reserved</h2>
-
+                            <h2 className="logo_name_nav">Ana Ruiz Rivera   &copy; 2020, All Rights Reserved <br/>Last Updated: 06/2020</h2>
+                           
                         </div>
                         <div class="container">
                             
