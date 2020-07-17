@@ -106,8 +106,16 @@ import '../css/portafolio.css'
                         </div>
 
                         <div className="separatediv">
-                        <h2 className="titleprojects">Pokemon Inquirer</h2>
+                        <h2 className="titleprojects">To Do List App</h2>
                         <img className="portafolio_img" src="../image/note.png"/>
+                        <p className="text">Created basic app in the Road to Hire Program, and it helps with organizing daily tasks.</p>
+                        <button className="links-button" ><a href="https://github.com/anaruizrivera/todo">GitHub</a></button>
+                        <button className="links-button" ><a href="https://eager-leavitt-5dd0e0.netlify.app/">Website</a></button>
+                        </div>
+
+                        <div className="separatediv">
+                        <h2 className="titleprojects">Pokemon Inquirer</h2>
+                        <img className="portafolio_img" src="../image/terminal.png"/>
                         <p className="text">This is a very interesting node application, where you are able to train a pokemon of your choice. If you would like to see it in action, clone my GitHub Repo and run it in Terminal.</p>
                         <button className="links-button" ><a href="https://github.com/anaruizrivera/Pokemon-Inquirer-App">GitHub</a></button>
                         {/* <button className="links-button" href="">GitHub</button> */}
@@ -122,14 +130,16 @@ import '../css/portafolio.css'
                         </div>
 
 
-                        {/* <div>
+                        
+
+
+                         {/* <div className="separatediv">
                         <h2 className="titleprojects"></h2>
                         <img className="portafolio_img" src=""/>
                         <p className="text"></p>
                         <button className="links-button" href="">GitHub</button>
                         <button className="links-button" href="">Website</button>
                         </div> */}
-
 
                        
 
