@@ -118,8 +118,8 @@ import '../css/portafolio.css'
                         <h2 className="titleprojects">Gallery with CSS Grid and Flexbox Fallback</h2>
                         <img className="portafolio_img" src="../image/flex.png"/>
                         <p className="text">Gallery with CSS Grid and Flexbox Fallback</p>
-                        <button className="links-button" href="">GitHub</button>
-                        <button className="links-button" href="">Website</button>
+                        <button className="links-button" href="https://github.com/anaruizrivera/anar">GitHub</button>
+                        <button className="links-button" href="https://anar.netlify.app/">Website</button>
                         </div>
 
                         <div className="separatediv">
